@@ -4,7 +4,7 @@
 
 Please refer to [this link](https://github.com/zeroQiaoba/GCNet) for instructions on dataset preparation.
 
-## How to Run
+## Run MGAFR
 
 ```bash
-CUDA_VISIBLE_DEVICES=0 python -u train_gcnet.py --mask-type='constant-0.0' --dataset='CMUMOSEI'
+CUDA_VISIBLE_DEVICES=0 python -W ignore -u train_gcnet.py --mask-type='constant-0.0' --dataset='CMUMOSEI'
